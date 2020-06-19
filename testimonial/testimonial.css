@@ -1,0 +1,83 @@
+/* Testimonial Carousel */
+@media screen and (min-width: 760px) {
+    .col-md-offset-2 {
+        margin-left: 16.66666667%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .col-md-offset-2 {
+        margin-left: 0;
+    }
+}
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+    
+}
+
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+#quote-carousel .carousel-indicators {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    overflow: hidden;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+#car-active {
+    margin: 0;
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+}
+
+@media screen and (max-width: 780px) {
+    .carousel-indicators {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1;
+}
+
+#testimonials {
+    background-image: url("test-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+
+.test-heading {
+    margin-top: 5vh;
+}
+
+.test-heading-bg {
+    background-image: url("../img/quote.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8rem;
+    height: 140px;
+    margin-top: 10vh;
+}
+
+@media screen and (max-width: 780px) {
+    #testimonials {
+        background-image: none;
+    }
+}
