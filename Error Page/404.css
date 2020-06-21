@@ -4,7 +4,7 @@ body{
 	font-family: "montserrat",sans-serif;
 	min-height: 100vh;
 	background-image: 100vh;
-	background-image: linear-gradient(125deg,#6a89cc,#b8e994);
+	background: #005888;
 
 }
 
@@ -12,7 +12,7 @@ body{
 	width: 100%;
 	position: absolute;
 	top:50%;
-	transform: translateY(-50%);
+    transform: translateY(-50%);
 	text-align: center;
 	color: #343434;
 }
@@ -27,7 +27,7 @@ body{
 }
 .container a{
 	text-decoration: none;
-	background: #e55039aa;
+	background:#005888;
 	color: #fff;
 	padding: 12px 24px;
 	display: inline-block;
