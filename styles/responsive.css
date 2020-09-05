@@ -111,8 +111,8 @@
 @media only screen and (max-width: 1024px)
 {
 	.coding > .overlay{
-	width:92% !important;
-	left:4% !important;
+	width:96% !important;
+	left:3% !important;
 	right: 2% !important;
 }
 }
@@ -238,8 +238,6 @@
 		padding-right: 8px;
 		padding-top: 0;
 		padding-bottom: 0px;
-		margin-right: 10px;
-
 	}
 }
 
@@ -287,7 +285,12 @@
 }
 .footer_text_right col-md-4 p
 {
-   text-align: center;
+   text-align:center;
+}
+.tab_text p
+{
+	
+	font-size: 15px;
 }
 }
 
@@ -472,7 +475,7 @@
 
 @media only screen and (max-width: 400px)
 {
-	.icon {
+    .icon {
 	font-size: 25px;
 }
 .blockchain>.overlay{
