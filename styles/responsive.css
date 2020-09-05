@@ -459,7 +459,11 @@
 
 @media only screen and (max-width: 479px)
 {
-	
+	.reverse-cols .fusion-row {
+        display: flex !important;
+        flex-flow: wrap !important;
+        flex-direction: column-reverse !important;
+}
 }
 
 /************
